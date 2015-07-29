@@ -16,4 +16,4 @@ RUN sbt clean && \
 ENV PORT 80
 EXPOSE 80
 
-CMD ["./target/universal/stage/bin/boilepipe-api"]
+CMD ["./target/universal/stage/bin/boilerpipe-api"]
