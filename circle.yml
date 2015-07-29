@@ -14,7 +14,7 @@ deployment:
   hub:
     branch: master
     commands:
-      - docker build -t blikk/boilepipe-api .
-      - docker tag blikk/boilepipe-api:latest blikk/boilepipe-api:$CIRCLE_SHA1
-      - docker tag blikk/boilepipe-api:latest blikk/boilepipe-api:$VERSION
-      - docker push blikk/boilepipe-api
+      - docker build -t blikk/boilerpipe-api .
+      - docker tag blikk/boilerpipe-api:latest blikk/boilerpipe-api:$CIRCLE_SHA1
+      - docker tag blikk/boilerpipe-api:latest blikk/boilerpipe-api:$VERSION
+      - docker push blikk/boilerpipe-api
